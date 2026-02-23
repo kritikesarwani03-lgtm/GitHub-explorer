@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 style="color:black">GitHub Explorer</h1>
+  <h1>
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+       alt="GitHub Logo" 
+       style="width:50px; margin-right:10px;">
+</h1>
+
+  <div class="search-box">
+    <input id="username" placeholder="Enter GitHub username">
+    <button onclick="searchUser()" id="searchBtn">Search</button>
+  </div>
+
+<div id="loading" class="spinner loading">Loading...</div>
+  <div id="error" class="error"></div>
+
+  <div id="profile" class="profile-card"></div>
+
+  <div class="controls">
+    <button onclick="sortRepos()">Sort by Stars ⭐</button>
+  </div>
+
+  <div id="repos" class="repo-grid"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span onclick="closeModal()" class="close">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

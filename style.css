@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(25deg,#bb2fce,#09bfaa,#5b64c6,#f95fc5,#e05d5d,#4e97e4);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+
+@keyframes wave {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  animation: wave 2s ease-in-out infinite;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.986);
+}
+
+
+.glass {
+  background: rgba(214, 210, 210, 0.863);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.loading{ 
+  text-align:center;
+  padding: 15px;
+}
+
+.search-box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+input {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #e092db;
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 15px rgba(247, 244, 244, 0.973);
+}
+
+.profile-card img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 50%;
+}
+
+.profile-card {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.repo-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 15px;
+}
+
+.repo-card {
+  background: rgba(223, 220, 220, 0.103);
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(240, 239, 239, 0.945);
+}
+
+.error {
+  color: #ffcccc;
+  margin-top: 10px;
+}
+
+.loader {
+  border: 5px solid rgba(234, 225, 225, 0.3);
+  border-top: 5px solid rgba(203, 191, 191, 0.315);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 20px auto;
+  animation: spin 1s linear infinite;
+}
+
+.repo-card {
+  background: rgba(237, 233, 233, 0.361);
+  padding: 20px;
+  border-radius: 75px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+
+.repo-card {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.repo-card:hover::after {
+  width: 80%;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(228, 219, 219, 0.726);
+}
+
+.modal-content {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
