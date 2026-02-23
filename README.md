@@ -125,11 +125,19 @@ https://api.github.com/users/${username}/repos
 Kriti Kesarwani
 
 ---
-## Deployed Link
+## 🚀 Live Project Demo
 
-https://kritikesarwani03-lgtm.github.io/GitHub-explorer/
+The project is deployed and accessible here:
+
+👉[ https://kritikesarwani03-lgtm.github.io/GitHub-explorer/]
 
 ---
+## 📂 Source Code Repository
+
+GitHub repository containing complete source code:
+
+👉[
+
 ## 📜 License
 
 This project is for learning purposes.
