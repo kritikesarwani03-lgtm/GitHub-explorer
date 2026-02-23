@@ -132,11 +132,14 @@ The project is deployed and accessible here:
 👉[https://kritikesarwani03-lgtm.github.io/GitHub-explorer/]
 
 ---
+
 ## 📂 Source Code Repository
 
 GitHub repository containing complete source code:
 
 👉[https://github.com/kritikesarwani03-lgtm/GitHub-explorer]
+
+---
 
 ## 📜 License
 
