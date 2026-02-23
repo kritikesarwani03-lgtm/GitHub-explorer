@@ -125,7 +125,13 @@ https://api.github.com/users/${username}/repos
 Kriti Kesarwani
 
 ---
+## Deployed Link
 
+https://kritikesarwani03-lgtm.github.io/GitHub-explorer/
+
+---
 ## 📜 License
 
 This project is for learning purposes.
+
+---
