@@ -137,7 +137,7 @@ The project is deployed and accessible here:
 
 GitHub repository containing complete source code:
 
-👉[https://github.com/kritikesarwani03-lgtm/GitHub-explorer]
+👉[https://github.com/kritikesarwani03-lgtm/GitHub-explorer.git]
 
 ---
 
