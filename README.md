@@ -117,14 +117,9 @@ https://api.github.com/users/${username}/repos
 * Save last search in LocalStorage
 * Contribution graph
 * Dark/light theme toggle
-
+* 
 ---
 
-## 👨‍💻 Author
-
-Kriti Kesarwani
-
----
 ## 🚀 Live Project Demo
 
 The project is deployed and accessible here:
@@ -140,9 +135,21 @@ GitHub repository containing complete source code:
 👉[https://github.com/kritikesarwani03-lgtm/GitHub-explorer.git]
 
 ---
+## 👨‍💻 Author
 
-## 📜 License
+Name: Kriti Kesarwani , Email: kritikesarwani03@gmail.com , GitHub: [https://github.com/kritikesarwani03-lgtm]
 
-This project is for learning purposes.
+---
+## ⭐ Final Note
+
+This project demonstrates how to build a modern, responsive frontend application using only HTML, CSS, and JavaScript. It highlights key web development skills, including:
+
+->API integration with GitHub to fetch real-time data
+
+->Responsive design that works across mobile, tablet, and desktop
+
+->Interactive UI/UX with hover effects, loading states, and animations
+
+->Clean, maintainable code using component-like structure and clear separation of logic
 
 ---
